@@ -7,8 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 	<style>
-		.myForm td{border:1px solid lightgrey;padding:5px;}
+		.myForm td{border:1px solid lightgrey;padding:.5em 5px;}
 		.myForm table{outline:1px solid lightgray;text-align:center;font-size:14px;}
+		.myForm {width:100%;overflow-y:auto;margin: 0 0 1em;}
+		.myForm::-webkit-scrollbar
+		{
+			-webkit-appearance: none;
+			width: 14px;
+			height: 14px;
+		}
+
+		.myForm::-webkit-scrollbar-thumb
+		{
+			border-radius: 8px;
+			border: 3px solid #fff;
+			background-color: rgba(0, 0, 0, .3);
+		}
 	</style>
 </head>
 <body>
@@ -30,12 +44,10 @@
 		<td>定金</td>
 		<td>全款</td>
 		<td>意向下单</td>
-		<td>-</td>
 		<td>意向代理</td>
 		<td>功能</td>
 	</tr>
 	<tr>
-		<td>-</td>
 		<td>-</td>
 		<td>-</td>
 		<td>-</td>
